@@ -29,7 +29,7 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/react-posts-pagination-app.git
+   git clone https://github.com/jatindrapratap/posts-gram.git
    ```
 
 2. Navigate to the project directory
