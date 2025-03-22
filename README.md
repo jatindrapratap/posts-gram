@@ -1,17 +1,56 @@
-<<<<<<< HEAD
-# React + Vite
+# React Posts Pagination App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# posts-gram
 This is a simple React application that fetches posts from an API and displays them with pagination. Users can navigate through the posts and search for specific titles.
->>>>>>> ba64767a866978eade5adebf541ffc4fa3ab20fd
+
+## Features
+
+- Fetches posts from the JSONPlaceholder API.
+- Displays 6 posts per page.
+- Pagination controls to navigate between pages.
+- Search functionality to filter posts by title.
+
+## Technologies Used
+
+- React
+- Redux Toolkit
+- React Router
+- Tailwind CSS (for styling)
+- JSONPlaceholder API
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+## Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/react-posts-pagination-app.git
+   ```
+
+2. Navigate to the project directory
+   ```bash
+   cd posts-gram
+   ```
+3. Install dependecies
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and navigate to http://localhost:5173 to view the application.
+
+
+The application will fetch posts from the JSONPlaceholder API and display them.
+You can click on the displayed list of posts to view the post in more detail
+You can navigate through the pages using the "Previous" and "Next" buttons.
+You can also click on the page numbers to jump to a specific page.
+Use the search bar to filter posts by title.
